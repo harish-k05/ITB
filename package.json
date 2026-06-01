@@ -1,0 +1,28 @@
+{
+  "name": "itb",
+  "version": "1.0.0",
+  "description": "THIS PROJECT IS TO PRACTICE THE BACKEND AND LEARN",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "dev": "nodemon backend/src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harish-k05/ITB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/harish-k05/ITB/issues"
+  },
+  "homepage": "https://github.com/harish-k05/ITB#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.3",
+    "nodemon": "^3.1.14"
+  }
+}
